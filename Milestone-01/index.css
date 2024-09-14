@@ -1,0 +1,248 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+.content,
+.about,
+.basic-info {
+    background-color: #e8e7ff;
+}
+
+.header {
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 110px;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 9px;
+    color: #58CAE4;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.header .buttons {
+    position: fixed;
+    top: 50px;
+    right: 30px;
+}
+
+.buttons a {
+    background-color: #0A5874;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    background-color: #043242;
+}
+
+.buttons a:active {
+    background-color: #040708;
+}
+
+.content {
+    text-align: center;
+    padding: 100px 15px 20px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    bottom: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icons {
+    margin: 40px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.basic-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.basic-info>div {
+    flex-basis: 45%;
+    margin: 20px;
+}
+
+.basic-info h2 {
+    margin-top: 0;
+}
+
+.basic-info p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.basic-info strong {
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.about,
+.basic-info,
+.skills {
+    background-color: rgba(255, 255, 255, 0.938);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about p,
+.basic-info p {
+    margin: 10px 0;
+}
+
+.basic-info h2,
+.about h2,
+.skills h2 {
+    background-color: #043242;
+    color: white;
+}
+
+.skills h2 {
+    margin-bottom: 50px;
+    height: 35px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.skill-bar {
+    background-color: #ccc6c6;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 70%;
+}
+
+.skill-bar div {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.skill span {
+    width: 10ch;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+}
+
+.html {
+    background-color: #043242;
+    width: 90%;
+}
+
+.css {
+    background-color: #043242;
+    width: 75%;
+}
+
+.js {
+    background-color: #043242;
+    width: 82%;
+}
+
+.ts {
+    background-color: #043242;
+    width: 85%;
+}
+
+.reactjs {
+    background-color: #043242;
+    width: 65%;
+}
+
+.nodejs {
+    background-color: #043242;
+    width: 50%;
+}
+
+.java {
+    background-color: #043242;
+    width: 75%;
+}
+
+.express {
+    background-color: #043242;
+    width: 40%;
+}
+
+.c {
+    background-color: #043242;
+    width: 88%;
+}
+
+.sql {
+    background-color: #043242;
+    width: 90%;
+}
+
+.networking {
+    background-color: #043242;
+    width: 76%;
+}
+
+.pt {
+    background-color: #043242;
+    width: 82%;
+}
+
+.database {
+    background-color: #043242;
+    width: 63%;
+}
+
+.os {
+    background-color: #043242;
+    width: 54%;
+}
+
+.logicgates {
+    background-color: #043242;
+    width: 86%;
+}
+
+.linux {
+    background-color: #043242;
+    width: 52%;
+}
+
+.msoffice {
+    background-color: #043242;
+    width: 79%;
+}

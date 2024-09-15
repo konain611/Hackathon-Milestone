@@ -246,3 +246,11 @@ body,
     background-color: #043242;
     width: 79%;
 }
+
+.basic-info button, .skills button{
+    background-color: #040708;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}

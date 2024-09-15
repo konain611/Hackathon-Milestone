@@ -7,6 +7,7 @@
     <title>My Resume</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 
@@ -51,8 +52,10 @@
         <div class="basic-info">
 
             <div>
-                <h2> Basic Information</h2>
-
+                <h2> Basic Information</h2><button onclick="myFunction()">Show/Hide</button>
+                
+  <div id="myDIV">          
+                
                 <p><strong>Age: </strong>22 (06/November/2001)
                     <hr>
                 </p>
@@ -72,11 +75,12 @@
                 <p><strong>Language: </strong>English, Urdu(Native)
                     <hr>
                 </p>
+</div>
             </div>
 
             <div>
-                <h2>Experience</h2>
-
+                <h2>Experience</h2><button onclick="myFunction1()">Show/Hide</button>
+<div id="myDIV1">
                 <p><strong>Upwork</strong></p>
                 <p>Frontend Developer<br>November 2023 - Present
                     <hr>
@@ -88,12 +92,12 @@
                 </p>
 
             </div>
-
+</div>
 
 
             <div>
-                <h2>Eduacation and Certifications</h2>
-
+                <h2>Eduacation and Certifications</h2><button onclick="myFunction2()">Show/Hide</button>
+                <div id="myDIV2">
                 <p><strong>Iqra University</strong></p>
                 <p>Bachelor's degree, Computer Science · (Spring 2021 - Present)
                     <hr>
@@ -118,11 +122,12 @@
                 <p>System Essential Series (August 2024 - Present)
                     <hr>
                 </p>
+                </div>
             </div>
 
             <div>
-                <h2>Projects</h2>
-
+                <h2>Projects</h2><button onclick="myFunction3()">Show/Hide</button>
+                <div id="myDIV3">
                 <p><strong>Linux Projects<hr></strong></p>
                 <p>Design and Deploy RedHat Linux OS infrastructure in various organizations
                     <hr>
@@ -153,12 +158,12 @@
                 <p>Hotel Management system using Assembly Language
                     <hr>
                 </p>
-
+</div>
             </div>
             <div>
                 <h2>Web Projects</h2>
-                <mark><em>Click the GitHub icon to access the repository.</em></mark>
-
+                <mark><em>Click the GitHub icon to access the repository.</em></mark><br><br><button onclick="myFunction4()">Show/Hide</button>
+                <div id="myDIV4">
                 <p><strong>Data Entry Form Application &nbsp;<a href="https://github.com/konain611/Data-Entry-Form"
                             target="_blank"><box-icon name='github' type='logo' color='#020000'
                                 size="25px"></box-icon></a><hr></strong></p>
@@ -181,13 +186,13 @@
                 
                 <p><b><i>Technologies Used:</i></b> HTML, CSS</p>
                 <p><b><i>Project Overview:</i></b> Designed and implemented a responsive signup and login page to provide a seamless user experience across various devices.</p>
-           
+           </div>
             </div>
 
             <div>
                 <h2>CLI-Based TypeScript Projects</h2>
-                <mark><em>Click the GitHub icon to access the repository.</em></mark>
-
+                <mark><em>Click the GitHub icon to access the repository.</em></mark><br><br><button onclick="myFunction5()">Show/Hide</button>
+                <div id="myDIV5">
                 <p><a href="https://github.com/konain611/Currency_Convertor" target="_blank"><box-icon name='github'
                             type='logo' color='#020000' size="18px"></box-icon></a><b>&nbsp; Currency Convertor</b> that
                     allows users to convert between these major currencies including USD, SAR, PKR, Euro, and Yen.</p>
@@ -240,11 +245,14 @@
                 <span
                     style="font-size: 13px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">Access
                     the project via your CLI using: npx skan_simplecalculator</span>
-
+</div>
             </div>
         </div>
         <div class="skills">
             <h2>Professional Skills</h2>
+            <button onclick="myFunction6()">Show/Hide</button>
+            <div id="myDIV6">
+                <br>
             <div class="skill">
                 <span>HTML</span>
                 <div class="skill-bar">
@@ -363,6 +371,7 @@
                     <div class="msoffice"></div>
                 </div>
                 <span>79%</span>
+            </div>
             </div>
         </div>
 

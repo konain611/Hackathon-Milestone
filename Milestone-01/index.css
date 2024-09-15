@@ -1,71 +1,71 @@
-body {
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-}
-
-body,
-.content,
-.about,
-.basic-info {
     background-color: #e8e7ff;
-}
-
-/* FOR HEADER */
-
-.header {
+  }
+  
+  /* Header Styles */
+  
+  .header {
     background: url('bg.jpg') no-repeat center center/cover;
     height: 450px;
     position: relative;
     text-align: center;
     color: white;
-}
-
-.header h1 {
+  }
+  
+  .header h1 {
     margin: 0;
     padding-top: 110px;
     font-size: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     word-spacing: 9px;
     color: #58CAE4;
-}
-
-.header p {
+  }
+  
+  .header p {
     margin: 5px 0;
     font-size: 28px;
     margin-top: 10px;
-}
-
-/* Download Resume Button */
-
-.header .buttons {
+  }
+  
+  /* Download Resume Button */
+  
+  .header .buttons {
     position: fixed;
     top: 50px;
     right: 30px;
-}
-
-.buttons a {
+  }
+  
+  .buttons a {
     background-color: #0A5874;
     padding: 20px 25px;
     border-radius: 10px;
     margin: 0 10px;
     color: white;
     text-decoration: none;
-}
-
-.buttons a:hover {
+  }
+  
+  .buttons a:hover {
     background-color: #043242;
-}
-
-.buttons a:active {
+  }
+  
+  .buttons a:active {
     background-color: #040708;
-}
-
-
-
-/* Profile Picture Setting */
-
-.profile-pic {
+  }
+  
+  /* Profile Picture Setting */
+  
+  .profile-pic {
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -74,238 +74,311 @@ body,
     bottom: -130px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-/* Contact icons */
-
-.social-icons {
+  }
+  
+  /* Contact icons */
+  
+  .social-icons {
     margin: 40px 0;
-}
-
-.social-icons a {
+  }
+  
+  .social-icons a {
     text-decoration: none;
     margin: 0 10px;
     font-size: 20px;
-}
-
-/* Information */
-.content {
+  }
+  
+  /* Information */
+  
+  .content {
     text-align: center;
     padding: 100px 15px 20px;
-}
-.basic-info {
+  }
+  
+  .basic-info {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.basic-info>div {
+  }
+  
+  .basic-info > div {
     flex-basis: 45%;
     margin: 20px;
-}
-
-.basic-info h2 {
+  }
+  
+  .basic-info h2 {
     margin-top: 0;
-}
-
-.basic-info p {
+  }
+  
+  .basic-info p {
     margin-bottom: 10px;
     text-align: left;
-}
-
-.basic-info strong {
+  }
+  
+  .basic-info strong {
     font-weight: bold;
     margin-right: 5px;
     font-size: 18px;
-}
-
-.about,
-.basic-info,
-.skills {
+  }
+  
+  .about,
+  .basic-info,
+  .skills {
     background-color: rgba(255, 255, 255, 0.938);
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-}
-
-.about p,
-.basic-info p {
+  }
+  
+  .about p,
+  .basic-info p {
     margin: 10px 0;
-}
-
-.basic-info h2,
-.about h2,
-.skills h2 {
+  }
+  
+  .basic-info h2,
+  .about h2,
+  .skills h2 {
     background-color: #043242;
     color: white;
-}
-
-.skills h2 {
+  }
+  
+  .skills h2 {
     margin-bottom: 50px;
     height: 35px;
-}
-
-.skill {
+  }
+  
+  .skill {
     display: flex;
     justify-content: space-between;
     margin: 15px 0;
-}
-
-.skill-bar {
+  }
+  
+  .skill-bar {
     background-color: #ccc6c6;
     border-radius: 5px;
     overflow: hidden;
     width: 70%;
-}
-
-.skill-bar div {
+  }
+  
+  .skill-bar div {
     height: 25px;
     border-radius: 5px;
-}
-
-.skill span {
+  }
+  
+  .skill span {
     width: 10ch;
     display: inline-block;
     text-align: left;
     font-size: 18px;
-}
-
-/* SKILLS PERCENTAFE */
-
-.html {
+  }
+  
+  /* SKILLS PERCENTAGE */
+  
+  .html {
     background-color: #043242;
     width: 90%;
-}
-
-.css {
+  }
+  
+  .css {
     background-color: #043242;
     width: 75%;
-}
-
-.js {
+  }
+  
+  .js {
     background-color: #043242;
     width: 82%;
-}
-
-.ts {
+  }
+  
+  .ts {
     background-color: #043242;
     width: 85%;
-}
-
-.reactjs {
+  }
+  
+  .reactjs {
     background-color: #043242;
     width: 65%;
-}
-
-.nodejs {
+  }
+  
+  .nodejs {
     background-color: #043242;
     width: 50%;
-}
-
-.java {
+  }
+  
+  .java {
     background-color: #043242;
     width: 75%;
-}
-
-.express {
+  }
+  
+  .express {
     background-color: #043242;
     width: 40%;
-}
-
-.c {
+  }
+  
+  .c {
     background-color: #043242;
     width: 88%;
-}
-
-.sql {
+  }
+  
+  .sql {
     background-color: #043242;
     width: 90%;
-}
-
-.networking {
+  }
+  
+  .networking {
     background-color: #043242;
     width: 76%;
-}
-
-.pt {
+  }
+  
+  .pt {
     background-color: #043242;
     width: 82%;
-}
-
-.database {
+  }
+  
+  .database {
     background-color: #043242;
     width: 63%;
-}
-
-.os {
+  }
+  
+  .os {
     background-color: #043242;
     width: 54%;
-}
-
-.logicgates {
+  }
+  
+  .logicgates {
     background-color: #043242;
     width: 86%;
-}
-
-.linux {
+  }
+  
+  .linux {
     background-color: #043242;
     width: 52%;
-}
-
-.msoffice {
+  }
+  
+  .msoffice {
     background-color: #043242;
     width: 79%;
-}
-
-/* Show Hide Button CSS */
-
-.slidebutton {
+  }
+  
+  /* Show Hide Button CSS */
+  
+  .slidebutton {
     width: 100px;
     height: 26px;
     background: #043242;
     margin: 20px auto;
     position: relative;
     border-radius: 50px;
-
-    &:after {
-      content: 'Show';
-      color: #00ff0d;
-      position: absolute;
-      right: 10px;
-      z-index: 0;
-      font: 12px/26px Arial, sans-serif;
-      font-weight: bold;
- 
+  }
+  
+  .slidebutton:after {
+    content: 'Show';
+    color: #00ff0d;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    font: 12px/26px Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .slidebutton:before {
+    content: 'Hide';
+    color: white;
+    position: absolute;
+    left: 10px;
+    z-index: 0;
+    font: 12px/26px Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .slidebutton label {
+    display: block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    z-index: 1;
+    background: #fcfff4;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+  }
+  
+  .slidebutton input[type=checkbox] {
+    visibility: hidden;
+  }
+  
+  .slidebutton input[type=checkbox]:checked + label {
+    left: 56px;
+  }
+  
+/* MAKING RESPOSIVE */
+  
+  /* Large screens */
+  @media only screen and (max-width: 1200px) {
+    .header {
+      height: 350px;
     }
-    &:before {
-      content: 'Hide';
-      color: white;
-      position: absolute;
-      left: 10px;
-      z-index: 0;
-      font: 12px/26px Arial, sans-serif;
-      font-weight: bold;
+    .header h1 {
+      font-size: 60px;
     }
-    label {
-      display: block;
-      width: 40px;
-      height: 20px;
-      cursor: pointer;
-      position: absolute;
-      top: 2px;
-      left: 3px;
-      z-index: 1;
-      background: #fcfff4;
-      border-radius: 50px;
-      transition: all 0.4s ease;
-
+    .header p {
+      font-size: 20px;
     }
-    input[type=checkbox] {
-      visibility: hidden;
-      &:checked + label {
-        left: 56px;
-      }
-    }    
+    .profile-pic {
+      width: 250px;
+      height: 250px;
+    }
+    .basic-info > div {
+      flex-basis: 40%;
+    }
+    .skills h2 {
+      margin-bottom: 30px;
+    }
+}
+/* Tablet screens */
+@media only screen and (max-width: 768px) {
+    .header {
+      height: 250px;
+    }
+    .header h1 {
+      font-size: 40px;
+    }
+    .header p {
+      font-size: 16px;
+    }
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+    }
+    .basic-info > div {
+      flex-basis: 50%;
+    }
+    .skills h2 {
+      margin-bottom: 20px;
+    }
+  }
+  /* Mobile screens */
+@media only screen and (max-width: 480px) {
+    .header {
+      height: 200px;
+    }
+    .header h1 {
+      font-size: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+    }
+    .basic-info > div {
+      flex-basis: 100%;
+    }
+    .skills h2 {
+      margin-bottom: 15px;
+    }
   }

@@ -332,7 +332,7 @@
       height: 250px;
     }
     .basic-info > div {
-      flex-basis: 50%;
+      flex-basis: 70%;
     }
     .skills h2 {
       margin-bottom: 30px;

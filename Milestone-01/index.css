@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:rgb(233, 231, 245);
+    background-color:rgb(255, 255, 255);
   }
   
   /* Header Styles */
@@ -124,7 +124,7 @@
   .about,
   .basic-info,
   .skills {
-    background-color: rgba(255, 255, 255, 0.938);
+    background-color: rgba(255, 255, 255, 0.692);
     padding: 20px;
     margin: 20px auto;
     width: 80%;

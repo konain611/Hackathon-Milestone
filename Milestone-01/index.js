@@ -1,56 +1,36 @@
+function toggleDisplay(elementId) {
+    var element = document.getElementById(elementId);
+    if (element) {
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        }
+        else {
+            element.style.display = "none";
+        }
+    }
+    else {
+        console.warn("Element with ID ".concat(elementId, " not found."));
+    }
+}
+// Usage of the toggleDisplay function for different elements
 function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+    toggleDisplay("myDIV");
 }
 function myFunction1() {
-  var x = document.getElementById("myDIV1");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+    toggleDisplay("myDIV1");
 }
 function myFunction2() {
-  var y = document.getElementById("myDIV2");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
+    toggleDisplay("myDIV2");
 }
 function myFunction3() {
-  var y = document.getElementById("myDIV3");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
+    toggleDisplay("myDIV3");
 }
 function myFunction4() {
-  var y = document.getElementById("myDIV4");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
+    toggleDisplay("myDIV4");
 }
 function myFunction5() {
-  var y = document.getElementById("myDIV5");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
+    toggleDisplay("myDIV5");
 }
 function myFunction6() {
-  var y = document.getElementById("myDIV6");
-  if (y.style.display === "none") {
-    y.style.display = "block";
-  } else {
-    y.style.display = "none";
-  }
+    toggleDisplay("myDIV6");
 }

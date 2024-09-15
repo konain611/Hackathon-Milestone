@@ -124,11 +124,11 @@
   .about,
   .basic-info,
   .skills {
-    background-color: rgb(225, 225, 252);
+    background-color: rgb(241, 241, 248);
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.678);
     border-radius: 10px;
   }
   

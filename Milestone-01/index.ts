@@ -12,7 +12,7 @@ function toggleDisplay(elementId: string): void {
     }
   }
   
-  // Usage of the toggleDisplay function for different elements
+
   function myFunction() {
     toggleDisplay("myDIV");
   }

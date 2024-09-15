@@ -12,7 +12,9 @@ function toggleDisplay(elementId) {
         console.warn("Element with ID ".concat(elementId, " not found."));
     }
 }
-// Usage of the toggleDisplay function for different elements
+
+//! For diffrent Divs
+
 function myFunction() {
     toggleDisplay("myDIV");
 }

@@ -10,7 +10,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e8e7ff;
+    background-color:rgb(29, 5, 124);
   }
   
   /* Header Styles */
@@ -332,7 +332,7 @@
       height: 250px;
     }
     .basic-info > div {
-      flex-basis: 70%;
+      flex-basis: 40%;
     }
     .skills h2 {
       margin-bottom: 30px;

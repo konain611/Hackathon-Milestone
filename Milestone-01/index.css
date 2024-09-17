@@ -1,4 +1,4 @@
-/* Global Styles */
+
 
 * {
     box-sizing: border-box;
@@ -13,7 +13,7 @@
     background-color:rgb(255, 255, 255);
   }
   
-  /* Header Styles */
+  /* Header */
   
   .header {
     background: url('bg.jpg') no-repeat center center/cover;
@@ -88,7 +88,7 @@
     font-size: 20px;
   }
   
-  /* Information */
+  /* Information Div */
   
   .content {
     text-align: center;
@@ -314,8 +314,14 @@
     left: 56px;
   }
   
+
+
+
 /* MAKING RESPOSIVE */
   
+
+
+
   /* Large screens */
   @media only screen and (max-width: 1200px) {
     .header {
@@ -338,6 +344,7 @@
       margin-bottom: 30px;
     }
 }
+
 /* Tablet screens */
 @media only screen and (max-width: 768px) {
     .header {
@@ -360,6 +367,8 @@
       margin-bottom: 20px;
     }
   }
+
+  
   /* Mobile screens */
 @media only screen and (max-width: 480px) {
     .header {

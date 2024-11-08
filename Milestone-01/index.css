@@ -429,8 +429,5 @@ body {
   .basic-info p, .basic-info strong, .skills span{
     font-size: small;
   }
-  .slidebutton {
-    width: 500px;
-    height: 13px;
-  }  
+  
 }

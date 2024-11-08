@@ -426,7 +426,11 @@ body {
     width: 95%;
     font-size: smaller;
   }
-  .basic-info p, .basic-info strong{
+  .basic-info p, .basic-info strong, .skills span{
     font-size: small;
   }
+  .slidebutton {
+    width: 500px;
+    height: 13px;
+  }  
 }

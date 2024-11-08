@@ -437,6 +437,8 @@ body {
   }
 
   .basic-info p,
+  .basic-info mark,
+  .basic-info em,
   .basic-info strong,
   .skills span,
   .skills span2 {

@@ -393,4 +393,7 @@
     .skills h2 {
       margin-bottom: 15px;
     }
+    .buttons a { 
+      padding: 10px 15px;
+    }
   }

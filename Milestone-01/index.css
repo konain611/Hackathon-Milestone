@@ -434,7 +434,7 @@ body {
     width: 95%;
     font-size: smaller;
   }
-  .basic-info p, .basic-info strong, .skills span{
+  .basic-info p, .basic-info strong, .skills span, .skills span2{
     font-size: small;
   }
   

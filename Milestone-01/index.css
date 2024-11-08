@@ -374,9 +374,6 @@
   
   /* Mobile screens */
 @media only screen and (max-width: 480px) {
-    .body{
-      font-size: 1px;
-    }
     .header {
       height: 200px;
     }
@@ -385,7 +382,7 @@
       padding-top: 50px;
     }
     .header p {
-      font-size: 14px;
+      font-size: 16px;
     }
     .profile-pic {
       width: 150px;
@@ -400,6 +397,8 @@
     }
     .buttons a { 
       padding: 8px 12px;
-      
+    }
+    .content {
+      padding: 100px 10px 15px;
     }
   }

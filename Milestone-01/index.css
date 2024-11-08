@@ -172,6 +172,7 @@ body {
   text-align: left;
   font-size: 18px;
 }
+
 .skill span2 {
   width: 10ch;
   display: inline-block;
@@ -434,8 +435,16 @@ body {
     width: 95%;
     font-size: smaller;
   }
-  .basic-info p, .basic-info strong, .skills span, .skills span2{
+
+  .basic-info p,
+  .basic-info strong,
+  .skills span,
+  .skills span2 {
     font-size: small;
   }
-  
+
+  .skill-bar div {
+    height: 18px;
+  }
+
 }

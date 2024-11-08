@@ -442,7 +442,9 @@ body {
   .skills span2 {
     font-size: small;
   }
-
+  .skill span{
+    width: 13ch;
+  }
   .skill-bar div {
     height: 18px;
   }

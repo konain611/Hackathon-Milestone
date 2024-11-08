@@ -397,5 +397,6 @@
     }
     .buttons a { 
       padding: 10px 15px;
+      position: absolute;
     }
   }

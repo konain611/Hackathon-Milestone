@@ -172,6 +172,13 @@ body {
   text-align: left;
   font-size: 18px;
 }
+.skill span2 {
+  width: 10ch;
+  display: inline-block;
+  text-align: right;
+  font-size: 18px;
+}
+
 
 /* SKILLS PERCENTAGE */
 

@@ -375,7 +375,7 @@
   /* Mobile screens */
 @media only screen and (max-width: 480px) {
     .body{
-      font-size: smaller;
+      font-size: 1px;
     }
     .header {
       height: 200px;

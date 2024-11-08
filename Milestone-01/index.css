@@ -430,6 +430,8 @@ body {
 
   .about,
   .basic-info,
+  .basic-info mark,
+  .basic-info em,
   .skills {
     padding: 10px;
     width: 95%;
@@ -437,16 +439,16 @@ body {
   }
 
   .basic-info p,
-  .basic-info mark,
-  .basic-info em,
   .basic-info strong,
   .skills span,
   .skills span2 {
     font-size: small;
   }
-  .skill span{
+
+  .skill span {
     width: 13ch;
   }
+
   .skill-bar div {
     height: 18px;
   }
